@@ -2,7 +2,7 @@
 const urlParams = new URLSearchParams(window.location.search);
 const sstrId = urlParams.get('id'); // or 'name' depending on your link structure
 
-fetch('\\sstr\\_data\\sstr-techniques.json')
+fetch('_data/sstr-techniques.json')
     .then(response => response.json())
     .then(data => {
         const detailsDiv = document.getElementById('technique-details');

@@ -38,7 +38,7 @@ function displayTechniques(data) {
 }
 
 // Fetch and display techniques data, with sorting by entry_date
-fetch('\\sstr\\_data\\sstr-techniques.json')
+fetch('_data/sstr-techniques.json')
     .then(response => response.json())
     .then(data => {
         techniquesData = data["SSTR Techniques"]; // Load the data
