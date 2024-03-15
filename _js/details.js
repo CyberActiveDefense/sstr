@@ -1,6 +1,6 @@
-// Parse the URL query parameter
+
 const urlParams = new URLSearchParams(window.location.search);
-const sstrId = urlParams.get('id'); // or 'name' depending on your link structure
+const sstrId = urlParams.get('id'); 
 
 fetch('_data/sstr-techniques.json')
     .then(response => response.json())

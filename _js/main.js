@@ -1,6 +1,6 @@
-let techniquesData = []; // Store the fetched techniques data
+let techniquesData = []; 
 
-// Function to dynamically filter techniques based on search input
+
 function filterTechniques() {
     const searchQuery = document.getElementById('search-input').value.toLowerCase();
 
@@ -14,10 +14,10 @@ function filterTechniques() {
 }
 
 
-// Function to display techniques in the table
+
 function displayTechniques(data) {
     const techniquesTableBody = document.getElementById('techniques-body');
-    techniquesTableBody.innerHTML = ''; // Clear existing rows
+    techniquesTableBody.innerHTML = ''; 
     data.forEach(item => {
         const row = document.createElement('tr');
         row.innerHTML = `
@@ -37,14 +37,14 @@ function displayTechniques(data) {
     });
 }
 
-// Fetch and display techniques data, with sorting by entry_date
+
 fetch('_data/sstr-techniques.json')
     .then(response => response.json())
     .then(data => {
-        techniquesData = data["SSTR Techniques"]; // Load the data
-        // Sort the data by entry_date, descending
+        techniquesData = data["SSTR Techniques"]; 
+        
         techniquesData.sort((a, b) => new Date(b.entry_date) - new Date(a.entry_date));
-        displayTechniques(techniquesData); // Display sorted techniques
+        displayTechniques(techniquesData); 
     })
     .catch(error => {
         console.error('Error loading techniques:', error);
