@@ -1,0 +1,94 @@
+{
+    "SSTR Techniques": [
+        {
+            "sstr_id": "0101.0101.0101",
+			"sstr_technique": "Technique 1337",
+			
+            
+            "tactics_id": "T123",
+            "tactics": "Defense Evasion",
+			
+            "techniques_id": "TECH001",
+            "technique": "Technique name",
+			
+			"sub_technique_id": "01010.0101",
+            "sub_technique": "Sub-technique A",
+           
+			"sstr_platform": "Windows",
+			
+			"privilege_required": "User",
+			
+			"sstr_description": "Description A",
+			
+			"sstr_detection": "Description A",
+			
+            "reference_links": [
+                "http://examplelink1.com",
+                "http://examplelink2.com"
+            ],
+            "contributor": "Contributor A",
+			"entry_date": "2024-01-15"
+
+        },
+        {
+        "sstr_id": "0202.0202.0202",
+        "sstr_technique": "Technique 4242",
+        "tactics_id": "T456",
+        "tactics": "Credential Access",
+        "techniques_id": "TECH002",
+        "technique": "Technique name B",
+        "sub_technique_id": "02020.0202",
+        "sub_technique": "Sub-technique B",
+        "sstr_platform": "Linux",
+        "privilege_required": "Root",
+        "sstr_description": "Description B",
+        "sstr_detection": "Detection B",
+        "reference_links": [
+            "http://examplelink3.com",
+            "http://examplelink4.com"
+        ],
+        "contributor": "Contributor B",
+        "entry_date": "2024-02-20"
+    },
+    {
+        "sstr_id": "0303.0303.0303",
+        "sstr_technique": "Technique 5656",
+        "tactics_id": "T789",
+        "tactics": "Lateral Movement",
+        "techniques_id": "TECH003",
+        "technique": "Technique name C",
+        "sub_technique_id": "03030.0303",
+        "sub_technique": "Sub-technique C",
+        "sstr_platform": "macOS",
+        "privilege_required": "Admin",
+        "sstr_description": "Description C",
+        "sstr_detection": "Detection C",
+        "reference_links": [
+            "http://examplelink5.com",
+            "http://examplelink6.com"
+        ],
+        "contributor": "Contributor C",
+        "entry_date": "2024-03-25"
+    },
+    {
+        "sstr_id": "0404.0404.0404",
+        "sstr_technique": "Technique 7878",
+        "tactics_id": "T101",
+        "tactics": "Exfiltration",
+        "techniques_id": "TECH004",
+        "technique": "Technique name D",
+        "sub_technique_id": "04040.0404",
+        "sub_technique": "Sub-technique D",
+        "sstr_platform": "Android",
+        "privilege_required": "None",
+        "sstr_description": "Description D",
+        "sstr_detection": "Detection D",
+        "reference_links": [
+            "http://examplelink7.com",
+            "http://examplelink8.com"
+        ],
+        "contributor": "Contributor D",
+        "entry_date": "2024-04-30"
+    }
+    ]
+}
